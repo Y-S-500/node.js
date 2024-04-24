@@ -1,12 +1,9 @@
-class Usuario {
-    constructor(nombre, email) {
+
+class Usuario  {
+    constructor(nombre, email, rol) {
         this.nombre = nombre;
         this.email = email;
-    }
-
-    compararDatos(usuario) {
-        return this.nombre === usuario.nombre && this.email === usuario.email;
+        this.rol = rol;
     }
 }
-
 module.exports = Usuario;
