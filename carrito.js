@@ -18,6 +18,7 @@ class Usuario {
 }
 
 class Producto {
+    
     constructor(id, nombre, precio, cantidad) {
         this.id = id;
         this.nombre = nombre;
